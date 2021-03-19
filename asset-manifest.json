@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/devpicklenote2/static/css/main.c6eb4378.chunk.css",
-    "main.js": "/devpicklenote2/static/js/main.ebc1cd17.chunk.js",
-    "main.js.map": "/devpicklenote2/static/js/main.ebc1cd17.chunk.js.map",
+    "main.css": "/devpicklenote2/static/css/main.dd3dc298.chunk.css",
+    "main.js": "/devpicklenote2/static/js/main.3c7221de.chunk.js",
+    "main.js.map": "/devpicklenote2/static/js/main.3c7221de.chunk.js.map",
     "runtime-main.js": "/devpicklenote2/static/js/runtime-main.a4381305.js",
     "runtime-main.js.map": "/devpicklenote2/static/js/runtime-main.a4381305.js.map",
     "static/js/2.cada06df.chunk.js": "/devpicklenote2/static/js/2.cada06df.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.f7d64b9b.chunk.js": "/devpicklenote2/static/js/3.f7d64b9b.chunk.js",
     "static/js/3.f7d64b9b.chunk.js.map": "/devpicklenote2/static/js/3.f7d64b9b.chunk.js.map",
     "index.html": "/devpicklenote2/index.html",
-    "static/css/main.c6eb4378.chunk.css.map": "/devpicklenote2/static/css/main.c6eb4378.chunk.css.map",
+    "static/css/main.dd3dc298.chunk.css.map": "/devpicklenote2/static/css/main.dd3dc298.chunk.css.map",
     "static/js/2.cada06df.chunk.js.LICENSE.txt": "/devpicklenote2/static/js/2.cada06df.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/devpicklenote2/static/media/AppleSDGothicNeoM.88c00162.ttf",
+    "static/media/App.scss": "/devpicklenote2/static/media/AppleSDGothicNeoL.0ed4f3cf.ttf",
     "static/media/pickle01_back.c16c61b0.png": "/devpicklenote2/static/media/pickle01_back.c16c61b0.png",
     "static/media/pickle01_front1.17f4658d.png": "/devpicklenote2/static/media/pickle01_front1.17f4658d.png",
     "static/media/pickle01_front2.c3a7885c.png": "/devpicklenote2/static/media/pickle01_front2.c3a7885c.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.a4381305.js",
     "static/js/2.cada06df.chunk.js",
-    "static/css/main.c6eb4378.chunk.css",
-    "static/js/main.ebc1cd17.chunk.js"
+    "static/css/main.dd3dc298.chunk.css",
+    "static/js/main.3c7221de.chunk.js"
   ]
 }
