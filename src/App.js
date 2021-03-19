@@ -53,8 +53,12 @@ const App=()=> {
         {/* <img className="logo" src={Logo} alt="logo" /> */}
         <img className="main-image" data-aos="fade-down" data-aos-easing="ease-in-out" src={MainImage} alt="main" />
         <div className="main-text" data-aos="zoom-in" data-aos-delay="500">
-          <span className="pickle1-title navy">투자는<span className="bold"> 지출,
-          </span><span>&nbsp;이자는</span><span className="bold"> 수입</span></span><br></br>
+          <span className="navy">
+            투자는
+            <span className="bold"> 지출,</span>
+            <span>&nbsp;이자는</span>
+            <span className="bold"> 수입</span>
+          </span><br></br>
           <span className="text-explain">투자내역을 기록해 가계부로 정리해보세요.</span>
         </div>
         <div className="text-description" data-aos="zoom-in"data-aos-delay="1000">
@@ -82,7 +86,7 @@ const App=()=> {
       </div> */}
       <div className="block3">
         <div className="pickle-image-container1">
-            <img className="pic-back" alt="" width="396px" height="660px" src={PickleBack1} data-aos-easing='ease' data-aos="fade-up"></img>
+            <img className="pic-back" alt="" width="396px" height="660px"  src={PickleBack1} data-aos-easing='ease' data-aos="fade-up"></img>
             <img className="pic-front1" alt="" width="560px" height="106px" src={PickleFront1} data-aos-delay="300" data-aos="fade-zoom-in"></img>
             <img className="pic-front2" alt="" width="432px" height="290px" src={PickleFront2} data-aos-delay="600" data-aos="zoom-in"></img>
             <div className="text-div" data-aos="fade-left" data-aos-delay="1500">
@@ -110,7 +114,7 @@ const App=()=> {
       <div className="block5">
         <div className="pickle-image-container3">
             <img className="pic-back" alt="" width="396px" height="660px" src={Pickle3Back} data-aos-easing='ease' data-aos="fade-up"></img>
-            <img className="pic-front" alt="" width="432px" height="236px" src={Pickle3Front} data-aos-delay="300"data-aos="fade-zoom-in"></img>
+            <img className="pic-front" alt="" width="432px" height="236px" src={Pickle3Front} data-aos-delay="300"data-aos="zoom-in"></img>
             <div className="text-div" data-aos="fade-left" data-aos-delay="1000">
               <div className="under-green-bar"></div>
               <span className="pickle-sub-title navy">Pickle 03</span><br></br>
@@ -142,7 +146,7 @@ const App=()=> {
           <input className="input" type="text" name="phone" placeholder="010-0000-0000"></input>
           </label>
           <label className="label">
-          <span>* 사용하는 <span className="montserrat-small">P2P</span>플랫폼</span>
+          <span>* 사용하는 <span className="bold montserrat-small">P2P</span>플랫폼</span>
           <input className="input" type="text" name="phone" placeholder="ex. 투게더펀딩, 피플펀드 ···"></input>
           </label>
           <label className="label">
@@ -158,9 +162,10 @@ const App=()=> {
         </div>
         <div className={isClicked2 ? "pop-up" : "display-none"}>
           <img className="pic-front1"alt="" width="160px" height="160px" src={PickleModal} data-aos="fade-zoom-in"></img>
-          <div className="thanks-text"><span>소중한 정보 제공에 감사드립니다.</span><br></br>
-          <span>좋은 서비스로 찾아오겠습니다.</span></div>
-          <button className="fighting-btn">화이팅 :)</button>
+          <div className="thanks-text">
+            <span>소중한 정보 제공에 감사드립니다.</span><br></br>
+            <span>좋은 서비스로 찾아오겠습니다.</span></div>
+            <button className="fighting-btn">화이팅 :)</button>
         </div> 
       </div>
       <div className="block8">
