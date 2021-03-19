@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/devpicklenote2/static/css/main.c6eb4378.chunk.css",
+    "main.js": "/devpicklenote2/static/js/main.ebc1cd17.chunk.js",
+    "main.js.map": "/devpicklenote2/static/js/main.ebc1cd17.chunk.js.map",
+    "runtime-main.js": "/devpicklenote2/static/js/runtime-main.a4381305.js",
+    "runtime-main.js.map": "/devpicklenote2/static/js/runtime-main.a4381305.js.map",
+    "static/js/2.cada06df.chunk.js": "/devpicklenote2/static/js/2.cada06df.chunk.js",
+    "static/js/2.cada06df.chunk.js.map": "/devpicklenote2/static/js/2.cada06df.chunk.js.map",
+    "static/js/3.f7d64b9b.chunk.js": "/devpicklenote2/static/js/3.f7d64b9b.chunk.js",
+    "static/js/3.f7d64b9b.chunk.js.map": "/devpicklenote2/static/js/3.f7d64b9b.chunk.js.map",
+    "index.html": "/devpicklenote2/index.html",
+    "static/css/main.c6eb4378.chunk.css.map": "/devpicklenote2/static/css/main.c6eb4378.chunk.css.map",
+    "static/js/2.cada06df.chunk.js.LICENSE.txt": "/devpicklenote2/static/js/2.cada06df.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/devpicklenote2/static/media/AppleSDGothicNeoM.88c00162.ttf",
+    "static/media/pickle01_back.c16c61b0.png": "/devpicklenote2/static/media/pickle01_back.c16c61b0.png",
+    "static/media/pickle01_front1.17f4658d.png": "/devpicklenote2/static/media/pickle01_front1.17f4658d.png",
+    "static/media/pickle01_front2.c3a7885c.png": "/devpicklenote2/static/media/pickle01_front2.c3a7885c.png",
+    "static/media/pickle02_back.3804cb37.png": "/devpicklenote2/static/media/pickle02_back.3804cb37.png",
+    "static/media/pickle02_front.8250f0b4.png": "/devpicklenote2/static/media/pickle02_front.8250f0b4.png",
+    "static/media/pickle03_back.57d6d4fb.png": "/devpicklenote2/static/media/pickle03_back.57d6d4fb.png",
+    "static/media/pickle03_front.371bb91e.png": "/devpicklenote2/static/media/pickle03_front.371bb91e.png",
+    "static/media/pickle_logo.181f648c.png": "/devpicklenote2/static/media/pickle_logo.181f648c.png",
+    "static/media/pickle_modal.a03a424e.png": "/devpicklenote2/static/media/pickle_modal.a03a424e.png",
+    "static/media/picklenote_main.b1c269f6.png": "/devpicklenote2/static/media/picklenote_main.b1c269f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4381305.js",
+    "static/js/2.cada06df.chunk.js",
+    "static/css/main.c6eb4378.chunk.css",
+    "static/js/main.ebc1cd17.chunk.js"
+  ]
+}
