@@ -1,5 +1,6 @@
 import './App.scss';
 import React, {useEffect, useState, useRef} from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import AOS from 'aos';
 import MainImage from './img/picklenote_main.png';
 import Logo from './img/pickle_logo.png';
@@ -19,7 +20,7 @@ const App=()=> {
   useEffect(() => {
     AOS.init({
       duration : 2000,
-      easing: 'ease-in-out-back'
+      easing: 'ease-in-out'
     });
   }, []);
 
@@ -51,8 +52,8 @@ const App=()=> {
           </span>
         </div> */}
         {/* <img className="logo" src={Logo} alt="logo" /> */}
-        <img className="main-image" data-aos="fade-down" data-aos-easing="ease-in-out" src={MainImage} alt="main" />
-        <div className="main-text" data-aos="zoom-in" data-aos-delay="500">
+        <img className="main-image" data-aos="fade-down" src={MainImage} alt="main" />
+        <div className="main-text">
           <span className="navy">
             투자는
             <span className="bold"> 지출,</span>
@@ -61,7 +62,7 @@ const App=()=> {
           </span><br></br>
           <span className="text-explain">투자내역을 기록해 가계부로 정리해보세요.</span>
         </div>
-        <div className="text-description" data-aos="zoom-in"data-aos-delay="1000">
+        <div className="text-description">
           <span>
             다수의&nbsp;
             <span className="bold navy">P2P</span>
@@ -86,10 +87,10 @@ const App=()=> {
       </div> */}
       <div className="block3">
         <div className="pickle-image-container1">
-            <img className="pic-back" alt="" width="396px" height="660px"  src={PickleBack1} data-aos-easing='ease' data-aos="fade-up"></img>
-            <img className="pic-front1" alt="" width="560px" height="106px" src={PickleFront1} data-aos-delay="300" data-aos="fade-zoom-in"></img>
-            <img className="pic-front2" alt="" width="432px" height="290px" src={PickleFront2} data-aos-delay="600" data-aos="zoom-in"></img>
-            <div className="text-div" data-aos="fade-left" data-aos-delay="1500">
+            <img className="pic-back" alt="" width="396px" height="660px"  src={PickleBack1} data-aos="fade-up"></img>
+            <img className="pic-front1" alt="" width="560px" height="106px" src={PickleFront1} data-aos-easing="ease-in-out-back" data-aos-delay="200" data-aos="zoom-in"></img>
+            <img className="pic-front2" alt="" width="432px" height="290px" src={PickleFront2} data-aos-easing="ease-in-out-back" data-aos-delay="400" data-aos="zoom-in"></img>
+            <div className="text-div" data-aos="fade-left" data-aos-delay="1000">
               <div className="under-green-bar1"></div>
               <span className="pickle-sub-title navy">Pickle 01</span><br></br>
               <span className="pickle-big-text">흩어진 <span className="bold montserrat-big">P2P</span>내역을 모아담다.</span><br></br>
@@ -100,12 +101,12 @@ const App=()=> {
       </div>
       <div className="block4">
         <div className="pickle-image-container2">
-          <img className="pic-back" alt="" width="396px" height="660px" src={Pickle2Back} data-aos-easing='ease' data-aos-delay="300" data-aos="fade-up"></img>
-          <img className="pic-front1" alt="" width="432px" height="290px" src={Pickle2Front} data-aos-delay="500" data-aos="zoom-in"></img>
+          <img className="pic-back" alt="" width="396px" height="660px" src={Pickle2Back} data-aos="fade-up"></img>
+          <img className="pic-front1" alt="" width="432px" height="290px" src={Pickle2Front} data-aos-easing="ease-in-out-back" data-aos-delay="300" data-aos="zoom-in"></img>
           <div className="text-div" data-aos="fade-right" data-aos-delay="1000">
             <div className="under-green-bar2"></div>
             <span className="pickle-sub-title navy">Pickle 02</span><br></br>
-            <span className="pickle-big-text">투자도 지출이죠,</span><br></br>
+            <span className="pickle-big-text">투자도 <span className="bold">지출</span>이죠,</span><br></br>
             <span className="pickle1-subtext">내가 투자한 내역을 기록하면 돈의 흐름을 놓치지 않고<br></br>
             빠짐 없이 가계부를 정리할 수 있어요.</span>
           </div>
@@ -113,12 +114,12 @@ const App=()=> {
       </div>
       <div className="block5">
         <div className="pickle-image-container3">
-            <img className="pic-back" alt="" width="396px" height="660px" src={Pickle3Back} data-aos-easing='ease' data-aos="fade-up"></img>
-            <img className="pic-front" alt="" width="432px" height="236px" src={Pickle3Front} data-aos-delay="300"data-aos="zoom-in"></img>
+            <img className="pic-back" alt="" width="396px" height="660px" src={Pickle3Back} data-aos="fade-up"></img>
+            <img className="pic-front" alt="" width="432px" height="236px" src={Pickle3Front} data-aos-easing="ease-in-out-back" data-aos-delay="300"data-aos="zoom-in"></img>
             <div className="text-div" data-aos="fade-left" data-aos-delay="1000">
               <div className="under-green-bar"></div>
               <span className="pickle-sub-title navy">Pickle 03</span><br></br>
-              <span className="pickle-big-text">이자는 수입입니다.</span><br></br>
+              <span className="pickle-big-text">이자는 <span className="bold">수입</span>입니다.</span><br></br>
               <span className="pickle1-subtext">여기저기 흩어져 있던 상환금들을 월별로 모아보고<br></br>
               들어올 수입을 놓치지 마세요.</span>
             </div>
@@ -127,12 +128,12 @@ const App=()=> {
       <div className="block6">
         <img className="logo" width="384px" height="312px" src={Logo} alt="logo" />
         <div className="logo-text">
-          <span className="short-description navy"><span className="montserrat-medium-big">P2P</span>투자를 기록하는 가계부,<span className="bold"> 피클노트</span>
+          <span className="short-description navy"><span className="montserrat-medium-big bold">P2P</span>투자를 기록하는 가계부,<span className="bold"> 피클노트</span>
           </span>
         </div>
-        <button onClick={handleClick} className="open-btn">서비스 오픈 알림받기</button>
+        <Link to="/#info-input" style={{ textDecoration: 'none' }}><div onClick={handleClick} className="open-btn">서비스 오픈 알림받기</div></Link>
       </div>
-      <div className={isClicked1 ? "block7" : "display-none"}>
+      <div id="info-input" className={isClicked1 ? "block7" : "display-none"}>
         <div className="text-div">
           <span className="text1">
             <span>피클노트는 조금 더 편리하고</span><br></br>
@@ -161,7 +162,7 @@ const App=()=> {
           <span>서비스 준비에 참고하도록 하겠습니다.</span>
         </div>
         <div className={isClicked2 ? "pop-up" : "display-none"}>
-          <img className="pic-front1"alt="" width="160px" height="160px" src={PickleModal} data-aos="fade-zoom-in"></img>
+          <img className="cucumber" alt="" width="96px" height="96px" src={PickleModal} data-aos="zoom-in"></img>
           <div className="thanks-text">
             <span>소중한 정보 제공에 감사드립니다.</span><br></br>
             <span>좋은 서비스로 찾아오겠습니다.</span></div>
@@ -170,7 +171,7 @@ const App=()=> {
       </div>
       <div className="block8">
         <div>궁금한 점은 메일로 문의 주세요</div>
-        <div>contact@picklenote.com</div>
+        <div>contact.picklenote@gmail.com</div>
       </div>
     </div>
   );
