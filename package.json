@@ -29,7 +29,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "http://cocktail-roland.github.io/picklenote",
+  "homepage": "http://cocktail-roland.github.io/devpicklenote",
   "browserslist": {
     "production": [
       ">0.2%",
