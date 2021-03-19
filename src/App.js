@@ -42,27 +42,24 @@ const App=()=> {
   return (
     <div className={isBlurred ? "blur" :"app"} onClick={handleClick}>
       <div className="header navy">
-            <span className="bold">P2P</span>투자를 기록하는 가계부, 피클노트
+        <span className="bold">P2P</span>투자를 기록하는 가계부, 피클노트
       </div>
-      <div className="block">
-        {/* <div className="text-div">
-          <span className="pickle1-title text-explain navy">
-            <span className="bold">P2P</span>투자를 기록하는 가계부, 
-            <span className="bold"> 피클노트</span>
-          </span>
-        </div> */}
-        {/* <img className="logo" src={Logo} alt="logo" /> */}
+      <div className="block1">
         <img className="main-image" data-aos="fade-down" src={MainImage} alt="main" />
         <div className="main-text">
-          <span className="navy">
+          <div className="main-text-div1">
+            <span className="navy">
             투자는
             <span className="bold"> 지출,</span>
             <span>&nbsp;이자는</span>
             <span className="bold"> 수입</span>
-          </span><br></br>
-          <span className="text-explain">투자내역을 기록해 가계부로 정리해보세요.</span>
+            </span>
+          </div>
+          <div className="main-text-div2">
+            <span className="text-explain">투자내역을 기록해 가계부로 정리해보세요.</span>
+          </div>
         </div>
-        <div className="text-description">
+        <div className="main-text-description">
           <span>
             다수의&nbsp;
             <span className="bold navy">P2P</span>
@@ -70,9 +67,9 @@ const App=()=> {
             투자중인 곳의 손해와 이익을 한 눈에 관리할 수 있는<br></br>
             나만의 투자 가계부를 가장 먼저 만나보세요.
           </span>
-          <div className="under-yellow-bar"></div>
-          <div className="mouse">
-            <div className="mouse-dot"></div>
+          <div className="main-under-yellow-bar"></div>
+          <div className="main-mouse">
+            <div className="main-mouse-dot"></div>
           </div>
         </div>
       </div>
@@ -87,40 +84,40 @@ const App=()=> {
       </div> */}
       <div className="block3">
         <div className="pickle-image-container1">
-            <img className="pic-back" alt="" width="396px" height="660px"  src={PickleBack1} data-aos="fade-up"></img>
-            <img className="pic-front1" alt="" width="560px" height="106px" src={PickleFront1} data-aos-easing="ease-in-out-back" data-aos-delay="200" data-aos="zoom-in"></img>
-            <img className="pic-front2" alt="" width="432px" height="290px" src={PickleFront2} data-aos-easing="ease-in-out-back" data-aos-delay="400" data-aos="zoom-in"></img>
-            <div className="text-div" data-aos="fade-left" data-aos-delay="1000">
-              <div className="under-green-bar1"></div>
-              <span className="pickle-sub-title navy">Pickle 01</span><br></br>
-              <span className="pickle-big-text">흩어진 <span className="bold montserrat-big">P2P</span>내역을 모아담다.</span><br></br>
-              <span className="pickle1-subtext">다수의 플랫폼에 분산투자되어 보기 어려웠던<br></br>
+            <img className="pickle-image-container1-pic-back" alt="" width="396px" height="660px"  src={PickleBack1} data-aos="fade-up" data-aos-delay="300"></img>
+            <img className="pickle-image-container1-pic-front1" alt="" width="560px" height="106px" src={PickleFront1} data-aos-easing="ease-in-out-back" data-aos-delay="600" data-aos="zoom-in"></img>
+            <img className="pickle-image-container1-pic-front2" alt="" width="432px" height="290px" src={PickleFront2} data-aos-easing="ease-in-out-back" data-aos-delay="900" data-aos="zoom-in"></img>
+            <div className="pickle-image-container1-text-div" data-aos="fade-left">
+              <div className="pickle-image-container1-under-green-bar1"></div>
+              <span className="pickle-image-container1-pickle-sub-title navy">Pickle 01</span><br></br>
+              <span className="pickle-image-container1-pickle-big-text">흩어진 <span className="bold montserrat-big">P2P</span>내역을 모아담다.</span><br></br>
+              <span className="pickle-image-container1-pickle1-subtext">다수의 플랫폼에 분산투자되어 보기 어려웠던<br></br>
               내역들을 피클로 한번에 정리해서 보세요!</span>
             </div>
         </div>
       </div>
       <div className="block4">
         <div className="pickle-image-container2">
-          <img className="pic-back" alt="" width="396px" height="660px" src={Pickle2Back} data-aos="fade-up"></img>
-          <img className="pic-front1" alt="" width="432px" height="290px" src={Pickle2Front} data-aos-easing="ease-in-out-back" data-aos-delay="300" data-aos="zoom-in"></img>
-          <div className="text-div" data-aos="fade-right" data-aos-delay="1000">
-            <div className="under-green-bar2"></div>
-            <span className="pickle-sub-title navy">Pickle 02</span><br></br>
-            <span className="pickle-big-text">투자도 <span className="bold">지출</span>이죠,</span><br></br>
-            <span className="pickle1-subtext">내가 투자한 내역을 기록하면 돈의 흐름을 놓치지 않고<br></br>
+          <img className="pickle-image-container2-pic-back" alt="" width="396px" height="660px" src={Pickle2Back} data-aos="fade-up" data-aos-delay="300"></img>
+          <img className="pickle-image-container2-pic-front1" alt="" width="432px" height="290px" src={Pickle2Front} data-aos-easing="ease-in-out-back" data-aos-delay="600" data-aos="zoom-in"></img>
+          <div className="pickle-image-container2-text-div" data-aos="fade-right">
+            <div className="pickle-image-container2-under-green-bar2"></div>
+            <span className="pickle-image-container2-pickle-sub-title navy">Pickle 02</span><br></br>
+            <span className="pickle-image-container2-pickle-big-text">투자도 <span className="bold">지출</span>이죠,</span><br></br>
+            <span className="pickle-image-container2-pickle1-subtext">내가 투자한 내역을 기록하면 돈의 흐름을 놓치지 않고<br></br>
             빠짐 없이 가계부를 정리할 수 있어요.</span>
           </div>
         </div>
       </div>
       <div className="block5">
         <div className="pickle-image-container3">
-            <img className="pic-back" alt="" width="396px" height="660px" src={Pickle3Back} data-aos="fade-up"></img>
-            <img className="pic-front" alt="" width="432px" height="236px" src={Pickle3Front} data-aos-easing="ease-in-out-back" data-aos-delay="300"data-aos="zoom-in"></img>
-            <div className="text-div" data-aos="fade-left" data-aos-delay="1000">
-              <div className="under-green-bar"></div>
-              <span className="pickle-sub-title navy">Pickle 03</span><br></br>
-              <span className="pickle-big-text">이자는 <span className="bold">수입</span>입니다.</span><br></br>
-              <span className="pickle1-subtext">여기저기 흩어져 있던 상환금들을 월별로 모아보고<br></br>
+            <img className="pickle-image-container3-pic-back" alt="" width="396px" height="660px" src={Pickle3Back} data-aos="fade-up" data-aos-delay="300"></img>
+            <img className="pickle-image-container3-pic-front" alt="" width="432px" height="236px" src={Pickle3Front} data-aos-easing="ease-in-out-back" data-aos-delay="600"data-aos="zoom-in"></img>
+            <div className="pickle-image-container3-text-div" data-aos="fade-left">
+              <div className="pickle-image-container3-under-green-bar"></div>
+              <span className="pickle-image-container3-pickle-sub-title navy">Pickle 03</span><br></br>
+              <span className="pickle-image-container3-pickle-big-text">이자는 <span className="bold">수입</span>입니다.</span><br></br>
+              <span className="pickle-image-container3-pickle1-subtext">여기저기 흩어져 있던 상환금들을 월별로 모아보고<br></br>
               들어올 수입을 놓치지 마세요.</span>
             </div>
         </div>
@@ -134,29 +131,29 @@ const App=()=> {
         <Link to="/#info-input" style={{ textDecoration: 'none' }}><div onClick={handleClick} className="open-btn">서비스 오픈 알림받기</div></Link>
       </div>
       <div id="info-input" className={isClicked1 ? "block7" : "display-none"}>
-        <div className="text-div">
-          <span className="text1">
+        <div className="block7-text-div">
+          <span className="block7-text">
             <span>피클노트는 조금 더 편리하고</span><br></br>
             <span>꼭 필요한 서비스가 되기 위해 준비하고 있습니다.</span><br></br>
             <span>자주 사용하는 <span className="bold montserrat-medium">P2P</span>플랫폼을 알려주세요!</span>
           </span>
         </div>
-        <form className="form">
-          <label className="label">
-           <span>&nbsp;전화번호</span>
-          <input className="input" type="text" name="phone" placeholder="010-0000-0000"></input>
+        <form className="block7-form">
+          <label className="block7-label">
+          <div>&nbsp;전화번호</div>    
+          <input className="block7-input" type="text" name="phone" placeholder="010-0000-0000"></input>
           </label>
-          <label className="label">
-          <span>* 사용하는 <span className="bold montserrat-small">P2P</span>플랫폼</span>
-          <input className="input" type="text" name="phone" placeholder="ex. 투게더펀딩, 피플펀드 ···"></input>
+          <label className="block7-label">
+          <span><span className="top-dot">·</span> 사용하는 <span className="bold montserrat-small">P2P</span>플랫폼</span>
+          <input className="block7-input" type="text" name="phone" placeholder="ex. 투게더펀딩, 피플펀드 ···"></input>
           </label>
-          <label className="label">
-          <span>* 투자건수 및 투자금액</span>
-          <input className="input" type="text" name="phone" placeholder="ex. 14건 or 800만원"></input>
+          <label className="block7-label">
+          <span><span className="top-dot">·</span> 투자건수 및 투자금액</span>
+          <input className="block7-input" type="text" name="phone" placeholder="ex. 14건 or 800만원"></input>
           </label>
         </form>
-        <button onClick={handleClick} className="confirm-btn">서비스 오픈 알림받기</button>
-        <div className="service-notice">
+        <button onClick={handleClick} className="block7-confirm-btn">서비스 오픈 알림받기</button>
+        <div className="block7-service-notice">
           <span>전화번호를 남겨주시면 서비스 오픈시 SMS로 다운로드 링크를 보내드립니다.</span><br></br>
           <span>전화번호 없이 사용하는 P2P플랫폼과 투자건수 및 투자금액만 보내주시면</span><br></br>
           <span>서비스 준비에 참고하도록 하겠습니다.</span>
@@ -170,7 +167,7 @@ const App=()=> {
         </div> 
       </div>
       <div className="block8">
-        <div>궁금한 점은 메일로 문의 주세요</div>
+        <div>궁금한 점은 메일로 문의 주세요!</div>
         <div>contact.picklenote@gmail.com</div>
       </div>
     </div>
