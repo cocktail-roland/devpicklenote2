@@ -195,12 +195,12 @@ const App=()=> {
         <div>contact.picklenote@gmail.com</div>
       </div>
     </div>
-    <div className="preparing-for-mobile">
+    {/* <div className="preparing-for-mobile">
         <div>
           <div className="preparing-for-mobile__logo-container"><img className="preparing-for-mobile__logo" src={Logo} alt="logo" /></div>
           <div className="bold">모바일 버전은 제작중입니다.</div>
         </div>
-    </div>
+    </div> */}
     </>
   );
 }
