@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/devpicklenote2/static/css/main.54b5a12e.chunk.css",
-    "main.js": "/devpicklenote2/static/js/main.ffb1adab.chunk.js",
-    "main.js.map": "/devpicklenote2/static/js/main.ffb1adab.chunk.js.map",
-    "runtime-main.js": "/devpicklenote2/static/js/runtime-main.11330681.js",
-    "runtime-main.js.map": "/devpicklenote2/static/js/runtime-main.11330681.js.map",
-    "static/js/2.502faaad.chunk.js": "/devpicklenote2/static/js/2.502faaad.chunk.js",
-    "static/js/2.502faaad.chunk.js.map": "/devpicklenote2/static/js/2.502faaad.chunk.js.map",
-    "static/js/3.90b2c88c.chunk.js": "/devpicklenote2/static/js/3.90b2c88c.chunk.js",
-    "static/js/3.90b2c88c.chunk.js.map": "/devpicklenote2/static/js/3.90b2c88c.chunk.js.map",
+    "main.css": "/devpicklenote2/static/css/main.e63bd54c.chunk.css",
+    "main.js": "/devpicklenote2/static/js/main.5d1bb3fc.chunk.js",
+    "main.js.map": "/devpicklenote2/static/js/main.5d1bb3fc.chunk.js.map",
+    "runtime-main.js": "/devpicklenote2/static/js/runtime-main.2f71daaa.js",
+    "runtime-main.js.map": "/devpicklenote2/static/js/runtime-main.2f71daaa.js.map",
+    "static/js/2.c6e0fe49.chunk.js": "/devpicklenote2/static/js/2.c6e0fe49.chunk.js",
+    "static/js/2.c6e0fe49.chunk.js.map": "/devpicklenote2/static/js/2.c6e0fe49.chunk.js.map",
+    "static/js/3.ba1a4c20.chunk.js": "/devpicklenote2/static/js/3.ba1a4c20.chunk.js",
+    "static/js/3.ba1a4c20.chunk.js.map": "/devpicklenote2/static/js/3.ba1a4c20.chunk.js.map",
     "index.html": "/devpicklenote2/index.html",
-    "static/css/main.54b5a12e.chunk.css.map": "/devpicklenote2/static/css/main.54b5a12e.chunk.css.map",
-    "static/js/2.502faaad.chunk.js.LICENSE.txt": "/devpicklenote2/static/js/2.502faaad.chunk.js.LICENSE.txt",
+    "static/css/main.e63bd54c.chunk.css.map": "/devpicklenote2/static/css/main.e63bd54c.chunk.css.map",
+    "static/js/2.c6e0fe49.chunk.js.LICENSE.txt": "/devpicklenote2/static/js/2.c6e0fe49.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/devpicklenote2/static/media/AppleSDGothicNeoL.0ed4f3cf.ttf",
     "static/media/pickle01_back.c16c61b0.png": "/devpicklenote2/static/media/pickle01_back.c16c61b0.png",
     "static/media/pickle01_front1.17f4658d.png": "/devpicklenote2/static/media/pickle01_front1.17f4658d.png",
@@ -25,9 +25,9 @@
     "static/media/picklenote_main.b1c269f6.png": "/devpicklenote2/static/media/picklenote_main.b1c269f6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.11330681.js",
-    "static/js/2.502faaad.chunk.js",
-    "static/css/main.54b5a12e.chunk.css",
-    "static/js/main.ffb1adab.chunk.js"
+    "static/js/runtime-main.2f71daaa.js",
+    "static/js/2.c6e0fe49.chunk.js",
+    "static/css/main.e63bd54c.chunk.css",
+    "static/js/main.5d1bb3fc.chunk.js"
   ]
 }
