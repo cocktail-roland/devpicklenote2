@@ -182,7 +182,7 @@ body {
     border-radius: 3px;
     background-color: #55967e;
     top: 8px;
-    left: 11.05px;
+    left: 11px;
     animation: 1.5s ease-in-out infinite mousemoving;
   }
 }
@@ -247,6 +247,7 @@ body {
         position: absolute;
         left: 0px;
         bottom: -170px;
+        font-size: 18px;
       }
       .app__block2__pickle-image-container1__text-div__under-green-bar1 {
         width: 143px;
@@ -310,6 +311,7 @@ body {
         position: absolute;
         left: 0px;
         bottom: -144px;
+        font-size: 18px;
       }
       .app__block3__pickle-image-container2__text-div__under-green-bar2 {
         width: 151px;
@@ -375,6 +377,7 @@ body {
         position: absolute;
         left: 0px;
         bottom: -144px;
+        font-size: 18px;
       }
       .app__block4__pickle-image-container3__text-div__under-green-bar {
         width: 154px;
@@ -462,8 +465,8 @@ body {
       font-family: "AppleSDGothicNeo";
       .app__block6__form__label__input {
         all: unset;
-        width: 384px;
-        height: 48px;
+        width: 362px;
+        height: 46px;
         background-color: transparent;
         border: 1px solid white;
         border-radius: 8px;
@@ -629,8 +632,7 @@ body {
   }
   .app {
     display: grid;
-    grid-template-rows: 64px 696px repeat(3, 760px) 620px;
-    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 90vh repeat(4, 100vh);
     color: #6a6a6a;
     .bold {
       font-weight: bold;
@@ -640,11 +642,13 @@ body {
     }
     .app__black-layer {
       position: absolute;
+      overflow: hidden;
     }
+    overflow-x: hidden;
   }
   .app--blurred {
     display: grid;
-    grid-template-rows: 64px 696px repeat(3, 760px) 620px;
+    grid-template-rows: 10vh 90vh repeat(4, 100vh);
     color: #6a6a6a;
     .bold {
       font-weight: bold;
@@ -656,7 +660,6 @@ body {
       position: absolute;
       background-color: rgba(31, 31, 31, 0.7);
       z-index: 1;
-      width: 100%;
       height: 5300px;
     }
   }
@@ -675,11 +678,12 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 14px;
+    position: relative;
     .app__block1__main-image {
-      width: 328px;
-      height: 219px;
-      margin-top: 105px;
-      margin-bottom: 64px;
+      width: 262.4px;
+      height: 175.2px;
+      margin-top: 10vh;
+      margin-bottom: 5vh;
     }
     .app__block1__main-text__div2__text-explanation {
       font-size: 16px;
@@ -716,30 +720,30 @@ body {
       top: 34px;
       left: -3px;
     }
-    .app__block1__main-text-description__main-mouse {
-      position: absolute;
-      width: 32px;
-      height: 52px;
-      border-radius: 24px;
-      border: 2px solid #55967e;
-      top: 124px;
-    }
-    .app__block1__main-text-description__main-mouse__dot {
-      position: absolute;
-      width: 6px;
-      height: 6px;
-      border-radius: 3px;
-      background-color: #55967e;
-      top: 8px;
-      left: 10.5px;
-      animation: 1.5s ease-in-out infinite mousemoving;
-    }
   }
 
   .app__block2 {
     display: flex;
     justify-content: center;
     background-color: #f4f7f5;
+    .app__block2__main-text-description__main-mouse {
+      position: absolute;
+      width: 32px;
+      height: 52px;
+      border-radius: 24px;
+      border: 2px solid #55967e;
+      bottom: 10vh;
+    }
+    .app__block2__main-text-description__main-mouse__dot {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 3px;
+      background-color: #55967e;
+      top: 8px;
+      left: 11px;
+      animation: 1.5s ease-in-out infinite mousemoving;
+    }
     .app__block2__pickle-image-container1 {
       background-color: #f4f7f5;
       display: flex;
@@ -748,38 +752,38 @@ body {
       line-height: 1.6;
       margin-bottom: 300px;
       height: 100%;
-      top: 50px;
+      top: 0px;
       left: -265px;
       .app__block2__pickle-image-container1__pic-back {
         position: absolute;
         top: 120px;
-        left: 130px;
+        left: 134px;
         width: 268px;
         height: 446px;
       }
       .app__block2__pickle-image-container1__pic-front1 {
         position: absolute;
         top: 165px;
-        left: 82px;
+        left: 85px;
         width: 360px;
         height: 67px;
       }
       .app__block2__pickle-image-container1__pic-front2 {
         position: absolute;
         top: 270px;
-        left: 120px;
+        left: 124px;
         width: 288px;
         height: 194px;
       }
       .app__block2__pickle-image-container1__text-div {
-        width: 500px;
+        width: 300px;
         position: absolute;
-        left: 200px;
+        left: 204px;
         top: 0px;
         margin-top: 48px;
         .app__block2__pickle-image-container1__text-div__pickle-sub-title {
           position: absolute;
-          left: 0px;
+          left: 2px;
           top: 15px;
           font-family: "Montserrat", sans-serif;
           font-size: 28px;
@@ -809,7 +813,7 @@ body {
           border-radius: 10px;
           z-index: -1;
           top: 38px;
-          left: -4px;
+          left: -2px;
         }
       }
     }
@@ -824,33 +828,33 @@ body {
       position: relative;
       margin-bottom: 300px;
       height: 100%;
-      top: 50px;
+      top: 0px;
       left: -265px;
       z-index: 0;
       line-height: 1.6;
       .app__block3__pickle-image-container2__pic-back {
         position: absolute;
         top: 120px;
-        left: 130px;
+        left: 134px;
         width: 268px;
         height: 447px;
       }
       .app__block3__pickle-image-container2__pic-front1 {
         position: absolute;
         top: 160px;
-        left: 120px;
+        left: 124px;
         width: 288px;
         height: 194px;
       }
       .app__block3__pickle-image-container2__text-div {
-        width: 500px;
+        width: 300px;
         position: absolute;
         left: 200px;
         top: 0px;
         margin-top: 48px;
         .app__block3__pickle-image-container2__text-div__pickle-sub-title {
           position: absolute;
-          left: 0px;
+          left: 1px;
           top: 15px;
           font-family: "Montserrat", sans-serif;
           font-size: 28px;
@@ -880,7 +884,7 @@ body {
           border-radius: 10px;
           z-index: -1;
           top: 39px;
-          left: -4px;
+          left: -3px;
         }
       }
     }
@@ -896,33 +900,33 @@ body {
       position: relative;
       margin-bottom: 300px;
       height: 100%;
-      top: 50px;
+      top: 0px;
       left: -265px;
       line-height: 1.6;
       z-index: 0;
       .app__block4__pickle-image-container3__pic-back {
         position: absolute;
         top: 120px;
-        left: 130px;
+        left: 134px;
         width: 268px;
         height: 447px;
       }
       .app__block4__pickle-image-container3__pic-front {
         position: absolute;
         top: 160px;
-        left: 120px;
+        left: 124px;
         width: 288px;
         height: 158px;
       }
       .app__block4__pickle-image-container3__text-div {
-        width: 500px;
+        width: 300px;
         position: absolute;
-        left: 200px;
+        left: 203px;
         top: 0px;
         margin-top: 48px;
         .app__block4__pickle-image-container3__text-div__pickle-sub-title {
           position: absolute;
-          left: 0px;
+          left: 1px;
           top: 15px;
           font-family: "Montserrat", sans-serif;
           font-size: 28px;
@@ -932,7 +936,7 @@ body {
         .app__block4__pickle-image-container3__text-div__pickle-big-text {
           position: absolute;
           width: 275px;
-          left: -17px;
+          left: -20px;
           bottom: -520px;
           font-size: 24px;
           color: #263959;
@@ -952,7 +956,7 @@ body {
           border-radius: 10px;
           z-index: -1;
           top: 39px;
-          left: -4px;
+          left: -3px;
         }
       }
     }
@@ -1004,7 +1008,7 @@ body {
     line-height: 1.7;
     position: relative;
     .app__block6__text-div {
-      width: 400px;
+      width: 300px;
       margin-top: 72px;
       margin-bottom: 48px;
       .app__block6__text-div__text {
@@ -1030,8 +1034,8 @@ body {
         font-family: "AppleSDGothicNeo";
         .app__block6__form__label__input {
           all: unset;
-          width: 320px;
-          height: 48px;
+          width: 298px;
+          height: 46px;
           background-color: transparent;
           border: 1px solid white;
           border-radius: 8px;
@@ -1059,7 +1063,7 @@ body {
       }
     }
     .app__block6__service-notice {
-      font-size: 14px;
+      font-size: 10px;
       color: #8bd1b4;
     }
     .top-dot {
@@ -1079,8 +1083,7 @@ body {
     background-color: white;
     color: #6a6a6a;
     position: fixed;
-    top: 30%;
-    bottom: 30%;
+    top: 200px;
     z-index: 2;
     .app__block6__pop-up__cucumber {
       margin-top: 34px;
@@ -1139,7 +1142,6 @@ body {
   .app--blurred {
     display: grid;
     grid-template-rows: 64px 696px repeat(3, 760px) 620px;
-    grid-template-columns: 100vw;
     color: #6a6a6a;
     .bold {
       font-weight: bold;
@@ -1152,7 +1154,7 @@ body {
       background-color: rgba(31, 31, 31, 0.7);
       z-index: 1;
       width: 100%;
-      height: 4420px;
+      height: 4560px;
     }
   }
 }

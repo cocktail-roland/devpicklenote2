@@ -39,10 +39,12 @@ const App=()=> {
     ||e.target.className.includes('app__block6__form__confirm-btn')||e.target.className.includes('app__block6__pop-up__cucumber'))){
       setIsClicked2(false);
       setIsBlurred(false);
+      document.body.style.overflow="visible";
     }
     if(e.target.className==="app__block6__pop-up__fighting-btn"){
       setIsClicked2(false);
       setIsBlurred(false);
+      document.body.style.overflow="visible";
     }
     console.log(e.target.className);
   }
@@ -59,6 +61,10 @@ const App=()=> {
 
   const handleSubmit=async (e)=>{
     e.preventDefault();
+   /*  if(phoneNumber.length<10 || phoneNumber.length>13){
+     window.alert("유효하지 않은 전화번호 입니다.");
+     return ;
+    } */
     await dbService.collection("userInfo").add({
       phoneNumber,
       investmentPlatform,
@@ -67,6 +73,7 @@ const App=()=> {
     });
     setIsClicked2(true);
     setIsBlurred(true);
+    document.body.style.overflow="hidden";
   }
 
   return (
@@ -100,12 +107,12 @@ const App=()=> {
             나만의 투자 가계부를 가장 먼저 만나보세요.
           </span>
           <div className="app__block1__main-text-description__under-yellow-bar"></div>
-          <div className="app__block1__main-text-description__main-mouse">
-            <div className="app__block1__main-text-description__main-mouse__dot"></div>
-          </div>
         </div>
       </div>
       <div className="app__block2">
+      <div className="app__block2__main-text-description__main-mouse">
+            <div className="app__block2__main-text-description__main-mouse__dot"></div>
+          </div>
         <div className="app__block2__pickle-image-container1">
             <img className="app__block2__pickle-image-container1__pic-back" alt="" src={PickleBack1} data-aos="fade-up" data-aos-delay="300"></img>
             <img className="app__block2__pickle-image-container1__pic-front1" alt="" src={PickleFront1} data-aos-easing="ease-in-out-back" data-aos-delay="600" data-aos="zoom-in"></img>
@@ -164,15 +171,15 @@ const App=()=> {
         <form className="app__block6__form" onSubmit={handleSubmit}>
           <label className="app__block6__form__label">
           <div>&nbsp;전화번호</div>    
-          <input className="app__block6__form__label__input" type="text" name="phoneNumber" value={phoneNumber} onChange={handleChange} placeholder="010-0000-0000"></input>
+          <input className="app__block6__form__label__input" type="tel" pattern="[0-9]*" name="phoneNumber" value={phoneNumber} onChange={handleChange} placeholder="010-0000-0000"></input>
           </label>
           <label className="app__block6__form__label">
           <span><span className="top-dot">·</span> 사용하는 <span className="bold montserrat-small">P2P</span>플랫폼</span>
-          <input className="app__block6__form__label__input" required type="text" name="investmentPlatform" value={investmentPlatform} onChange={handleChange} placeholder="ex. 투게더펀딩, 피플펀드 ···"></input>
+          <input className="app__block6__form__label__input"  required type="text" name="investmentPlatform" value={investmentPlatform} onChange={handleChange} placeholder="ex. 투게더펀딩, 피플펀드 ···"></input>
           </label>
           <label className="app__block6__form__label">
           <span><span className="top-dot">·</span> 투자건수 및 투자금액</span>
-          <input className="app__block6__form__label__input" required type="text" name="investAmount" value={investAmount} onChange={handleChange} placeholder="ex. 14건 or 800만원"></input>
+          <input className="app__block6__form__label__input"  required type="text" name="investAmount" value={investAmount} onChange={handleChange} placeholder="ex. 14건 or 800만원"></input>
           </label>
           <input type="submit"  className="app__block6__form__confirm-btn" value="서비스 오픈 알림받기"></input>
         </form>
