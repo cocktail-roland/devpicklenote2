@@ -1,4 +1,5 @@
 import './App.scss';
+import './MobileApp.scss';
 import React, {useEffect, useState, useRef} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import AOS from 'aos';
@@ -81,7 +82,7 @@ const App=()=> {
     <div className={isBlurred ? "app--blurred" :"app"} onClick={handleClick}>
       <div className="app__black-layer"></div>
       <div className="app__header navy">
-        <span className="bold">P2P</span>투자를 기록하는 가계부, 피클노트
+        <span className="bold montserrat-very-small">P2P</span><span className={"baseline"}>투자를 기록하는 가계부, 피클노트</span>
       </div>
       <div className="app__block1">
         <img className="app__block1__main-image" data-aos="fade-down" src={MainImage} alt="main" />

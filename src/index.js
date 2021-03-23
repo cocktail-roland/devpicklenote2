@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -7,9 +7,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Route path="/" exact={true} component={App} />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

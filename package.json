@@ -1,7 +1,7 @@
 {
   "name": "fintclone",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -23,9 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -33,7 +31,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "http://cocktail-roland.github.io/devpicklenote2",
   "browserslist": {
     "production": [
       ">0.2%",
