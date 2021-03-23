@@ -107,12 +107,12 @@ const App=()=> {
             나만의 투자 가계부를 가장 먼저 만나보세요.
           </span>
           <div className="app__block1__main-text-description__under-yellow-bar"></div>
+          <div className="app__block1__main-text-description__main-mouse">
+            <div className="app__block1__main-text-description__main-mouse__dot"></div>
+          </div>
         </div>
       </div>
       <div className="app__block2">
-      <div className="app__block2__main-text-description__main-mouse">
-            <div className="app__block2__main-text-description__main-mouse__dot"></div>
-          </div>
         <div className="app__block2__pickle-image-container1">
             <img className="app__block2__pickle-image-container1__pic-back" alt="" src={PickleBack1} data-aos="fade-up" data-aos-delay="300"></img>
             <img className="app__block2__pickle-image-container1__pic-front1" alt="" src={PickleFront1} data-aos-easing="ease-in-out-back" data-aos-delay="600" data-aos="zoom-in"></img>
